@@ -155,7 +155,7 @@ h3 {
   font-size: 19pt;
 }
 
-@media screen and (max-device-width: 1254px) {
+@media screen and (max-device-width: 750px) {
                                        .title {
                                                     width: 50%;
                                                     height: 100%;
