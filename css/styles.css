@@ -1,0 +1,170 @@
+html {
+  background-color: #212027;
+}
+
+body {
+  font-size: 12pt;
+  font-family: Young;
+  color: black;
+  line-height: 1.45em;
+  letter-spacing: 6px;
+  word-spacing: 3px;
+}
+
+p {
+  text-indent: 1.5em;
+}
+
+h1 {
+  font-family: monofonto;
+  font-weight: bold;
+  font-size: 41px;
+  color: black;
+  font-variant: small-caps;
+  letter-spacing: 7px;
+  word-spacing: 5px;
+  line-height: 35px;
+}
+
+h3 {
+  font-family: young;
+  font-weight: bold;
+  font-size: 28px;
+  font-variant: small-caps;
+  letter-spacing: 7px;
+  word-spacing: 5px;
+  line-height: 35px;
+}
+
+.main-container {
+  width: 90%;
+}
+
+.title {
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #594346;
+  float: left;
+  width: 30%;
+  height: auto;
+  background-color:#8D2F23;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+.nav {
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #594346;
+  width: 60%;
+  height: 150px;
+  float: left;
+  display: inline-block;
+  background-color: black;
+  font-size: 20pt;
+  line-height: 1.45em;
+  letter-spacing: 0.125em;
+  display: inline-block;
+  text-align: center;
+  word-spacing: 15px;
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 1;
+}
+
+.nav a {
+  color: gold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav a:hover {
+  background-color: #A22108;
+  color: darkorange;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: tomato;
+    min-width: 170px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover {
+  background-color: yellow;
+}
+
+.content {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #594346;
+  width: 90%;
+  background-color: #561E18;
+  color: black;
+  text-align: justify;
+  float: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  padding-right: 20px;
+  z-index: 1;
+}
+
+.footer {
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #594346;
+  width: 90%;
+  background-color: #561E18;
+  float: left;
+  padding-left: 23px;
+}
+
+.text-element:first-letter {
+  color: orangered;
+  font-size: 19pt;
+}
+
+@media screen and (max-device-width: 1254px) {
+                                       .title {
+                                                    width: 50%;
+                                                    height: 100%;
+                                                    order: 1;}
+                                       .nav {
+                                                    width: 50%;
+                                                    height: 100%;
+                                                    order: 1;}
+                                       .content {
+                                                    width: 50%;
+                                                    height: 100%;
+                                                    order: 1;}          }
