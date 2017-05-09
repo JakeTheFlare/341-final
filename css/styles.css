@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-size: 14pt;
+  font-size: 12pt;
   font-family: Young;
   color: black;
   line-height: 1.45em;
@@ -113,6 +113,7 @@ h3 {
     position: absolute;
     background-color: tomato;
     font-size: 27px;
+    text-align: center;
     min-width: 170px;
     z-index: 1;
 }
@@ -134,7 +135,7 @@ h3 {
 }
 
 .dropdown:hover {
-  background-color: coral;
+  background-color: #A22108;
 }
 
 .content {
@@ -172,18 +173,18 @@ h3 {
 
 .text-element:first-letter {
   color: orangered;
-  font-size: 19pt;
+  font-size: 15pt;
 }
 
 @media screen and (max-device-width: 750px) {
                                        .title {
-                                                    width: 30%;
+                                                    width: 45%;
                                                     height: auto;
                                                     order: 1;}
                                        .nav {
-                                                    width: 60%;
+                                                    width: 45%;
                                                     height: auto;
-                                                    order: 1;}
+                                                    order: 2;}
                                        .content {
                                                     width: 90%;
                                                     height: auto;
@@ -192,3 +193,4 @@ h3 {
                                                     width: 90%;
                                                     height: auto;
                                                     order: 1;}
+                                                  }
