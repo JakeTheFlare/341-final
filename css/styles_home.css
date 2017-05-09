@@ -1,0 +1,148 @@
+html {
+  background-color: black;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 28px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  flex-wrap: wrap;
+  width: 100%;
+  max-height: 100%;
+}
+
+.img, .img2 {
+  position:relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.img {
+  background-image: url("./imgs/fire.gif");
+  min-height: 150vh;
+  min-width: 100%;
+}
+
+.img2 {
+  background-image: url("./imgs/spongebob_fire.gif");
+  min-height: 135vh;
+  min-width: 100%;
+}
+
+.title {
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #594346;
+  width: 35%;
+  height: 200px;
+  float: left;
+  background-color:#8D2F23;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  z-index: 1;
+}
+
+.nav {
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #594346;
+  width: 100%;
+  height: 200px;
+  float: left;
+  display: inline-block;
+  background-color: black;
+  font-size: 20pt;
+  letter-spacing: 0.125em;
+  display: inline-block;
+  text-align: center;
+  word-spacing: 15px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  z-index: 1;
+}
+
+.nav a {
+  color: gold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav a:hover {
+  background-color: #A22108;
+  color: darkorange;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: tomato;
+    font-size: 27px;
+    min-width: 170px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover {
+  background-color: coral;
+}
+
+.welcoming {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: red;
+  color: black;
+  border-style: solid;
+  border-width: 50px;
+  border-color: gray;
+  top: 50%;
+  padding: 50px 80px;
+}
+
+@media only screen and (max-device-width: 750px) {
+                                .img, .img2, .img3 {
+                                  background-attachment: scroll;}
+                              }
