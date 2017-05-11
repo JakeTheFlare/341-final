@@ -3,14 +3,14 @@ html {
 }
 
 h1 {
-  font-family: monofonto;
+  font-family: 'monofonto';
   font-weight: bold;
   font-size: 45px;
   text-align: center;
 }
 
 h2 {
-  font-family: young;
+  font-family: 'young';
   font-weight: bold;
   word-spacing: 2em;
   font-size: 28px;
@@ -51,18 +51,17 @@ body {
 .title {
   text-align: center;
   border-style: solid;
+  float: inherit;
   border-width: 15px;
   border-color: #594346;
   width: 35%;
   height: 200px;
-  float: left;
   background-color:#8D2F23;
   text-decoration: none;
   padding-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-  margin-left: 425px;
   z-index: 1;
 }
 
@@ -108,7 +107,6 @@ body {
     display: none;
     position: absolute;
     background-color: tomato;
-    color: gold;
     font-size: 27px;
     text-align: center;
     min-width: 180px;
@@ -119,6 +117,7 @@ body {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
+    list-style: none;
     display: block;
 }
 
@@ -131,7 +130,7 @@ body {
 }
 
 .dropdown:hover {
-  background-color: coral;
+  background-color: #A22108;
 }
 
 .welcoming {
@@ -145,6 +144,20 @@ body {
   border-color: gray;
   top: 50%;
   padding: 50px 80px;
+}
+
+@font-face {
+    font-family: 'monofonto';
+    src: url('..fonts/monofonto.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Young';
+    src: url('..fonts/Young.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @media only screen and (max-device-width: 750px) {
