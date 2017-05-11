@@ -192,19 +192,19 @@ h3 {
 
 @media screen and (max-device-width: 750px) {
                                        .title {
-                                                    width: 50%;
+                                                    width: 45%;
                                                     height: auto;
                                                     order: 1;}
                                        .nav {
-                                                    width: 50%;
+                                                    width: 60%;
                                                     height: auto;
                                                     order: 2;}
                                        .content {
-                                                    width: 80%;
+                                                    width: 75%;
                                                     height: auto;
                                                     order: 1;}
                                       .footer {
-                                                    width: 80%;
+                                                    width: 75%;
                                                     height: auto;
                                                     order: 1;}
                                                   }
