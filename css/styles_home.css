@@ -151,19 +151,19 @@ body {
 
 @font-face {
     font-family: 'monofonto';
-    src: url('..fonts/monofonto.ttf') format('opentype');
+    src: url('./fonts/monofonto.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Young';
-    src: url('..fonts/Young.ttf') format('opentype');
+    src: url('./fonts/Young.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
-@media only screen and (max-device-width: 750px) {
+@media screen and (max-device-width: 1270px) {
                                 .img, .img2 {
                                   background-attachment: scroll;}
                               }
