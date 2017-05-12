@@ -29,3 +29,21 @@ Like I said, I still have some tweaks to fix, and there might be a chance I'll h
 ![Work Progress 2](imgs/Progress-2.png)
 ![Work Progress 3](imgs/Progress-3.png)
 ![Work Progress 4](imgs/Progress-4.png)
+
+<hr>
+
+# Final Report
+## Issues:
+1. I have been having a hard time trying to connect the fonts I downloaded for my project to my css styles sheet.  I have been reviewing Week 08 to try to learn how to fix this issue.
+2. The design idea I mentioned earlier about having the title and the navigation bar right next to each other was going alright at first.  But when I kept on doing RWD testing on my site, (i.e. viewing it on a mobile device) it just doesn’t work out and the content just keeps squishing together.  To be honest, I have no idea of what else to do to fix this issue, and I am getting tired of trying to do so.
+
+## Changes:
+The title and navigation bar are no longer going to be next to each other, my layout’s just going to have a standard top to bottom transition.  Although, I did add a logo next to my title.
+
+## Feats:
+1. Even though I did not create the exact website layout I wanted, the RWD testing is running a little more smoothly now.
+2. I managed to push myself a little, by utilizing everything I learned throughout the semester.
+3. I believe that I have created something to the required expectations of my instructor.
+
+## Overall Summary:
+I still need some time before Friday at midnight to make some finishing touches.  But overall, I feel that taking this class has helped both refreshed, and sharpened my skills as a web designer.  Even though I will soon no longer be attending this class, I will continue to further utilize these skills and learn further more about these development techniques.
