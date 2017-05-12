@@ -201,19 +201,19 @@ iframe {
 
 @media screen and (max-device-width: 750px) {
                                        .title {
-                                                    width: 50%;
+                                                    width: 100%;
                                                     height: auto;
                                                     order: 1;}
                                        .nav {
-                                                    width: 50%;
+                                                    width: 100%;
                                                     height: auto;
                                                     order: 2;}
                                        .content {
-                                                    width: 50%;
+                                                    width: 100%;
                                                     height: auto;
                                                     order: 1;}
                                       .footer {
-                                                    width: 50%;
+                                                    width: 100%;
                                                     height: auto;
                                                     order: 1;}
                                                   }
