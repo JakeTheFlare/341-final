@@ -7,6 +7,8 @@ h1 {
   font-weight: bold;
   font-size: 45px;
   text-align: center;
+  font-variant: small-caps;
+  color: gray;
 }
 
 h2 {
@@ -55,7 +57,7 @@ body {
   border-width: 15px;
   border-color: #594346;
   width: 35%;
-  height: 200px;
+  height: auto;
   background-color:#8D2F23;
   text-decoration: none;
   padding-top: 5px;
@@ -142,7 +144,8 @@ body {
   border-style: solid;
   border-width: 15px;
   border-color: gray;
-  top: 50%;
+  width: 90%;
+  height: auto;
   padding: 50px 80px;
 }
 
