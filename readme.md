@@ -43,7 +43,7 @@ Like I said, I still have some tweaks to fix, and there might be a chance I'll h
 The title and navigation bar are no longer going to be next to each other, my layout’s just going to have a standard top to bottom transition.  Although, I did add a logo next to my title.
 
 ## Feats:
-1. Even though I did not create the exact website layout I wanted, the RWD testing has running a little more smoothly now.
+1. Even though I did not create the exact website layout I wanted, the RWD testing has been running a little more smoothly now.
 2. After reviewing Chapter 8 a little bit, I have managed to figure out the font connection issue that I have been having, and my fonts are now showing on other devices.
 3. I managed to push myself a little, by utilizing everything I learned throughout the semester.
 4. I believe that I have created something to the required expectations of my instructor.
