@@ -22,15 +22,15 @@ My font choice consists of two sans-serif-styled fonts named; <i>monofonto</i> a
 Like I said, I still have some tweaks to fix, and there might be a chance I'll have to change up my design a little bit, compared to my Wireframe sketches.  All in all, I'm looking forward to how it turns out.
 
 ## Wireframe Sketches
-![Small Wireframe Sketch](imgs/Small.jpeg)
-![Medium Wireframe Sketch](imgs/Medium.jpeg)
-![Large Wireframe Sketch](imgs/Large.jpeg)
+![Small Wireframe Sketch](./imgs/Small.jpeg)
+![Medium Wireframe Sketch](./imgs/Medium.jpeg)
+![Large Wireframe Sketch](./imgs/Large.jpeg)
 
 ## Progress:
-![Work Progress 1](imgs/Progress-1.png)
-![Work Progress 2](imgs/Progress-2.png)
-![Work Progress 3](imgs/Progress-3.png)
-![Work Progress 4](imgs/Progress-4.png)
+![Work Progress 1](./imgs/Progress-1.png)
+![Work Progress 2](./imgs/Progress-2.png)
+![Work Progress 3](./imgs/Progress-3.png)
+![Work Progress 4](./imgs/Progress-4.png)
 
 <hr>
 
@@ -54,7 +54,7 @@ Overall, I feel that taking this class has helped both refreshed, and sharpened 
 <hr>
 
 ## Final Code Update:
-![Final Work Progress 1](imgs/Final Progress-1.png)
-![Final Work Progress 2](imgs/Final Progress-2.png)
-![Final Work Progress 3](imgs/Final Progress-3.png)
-![Final Work Progress 4](imgs/Final Progress-4.png)
+![Final Work Progress 1](./imgs/Final Progress-1.png)
+![Final Work Progress 2](./imgs/Final Progress-2.png)
+![Final Work Progress 3](./imgs/Final Progress-3.png)
+![Final Work Progress 4](./imgs/Final Progress-4.png)
