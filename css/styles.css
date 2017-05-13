@@ -195,7 +195,7 @@ h3 {
     font-style: normal;
 }
 
-@media screen and (min-device-width: 1270px) {
+@media screen and (max-device-width: 1270px) {
                                        .title {
                                                     width: 90%;
                                                     height: auto;
