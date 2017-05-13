@@ -54,7 +54,7 @@ Overall, I feel that taking this class has helped both refreshed, and sharpened 
 <hr>
 
 ## Final Code Update:
-![Final Work Progress 1](./imgs/Final Progress-1.png)
-![Final Work Progress 2](./imgs/Final Progress-2.png)
-![Final Work Progress 3](./imgs/Final Progress-3.png)
-![Final Work Progress 4](./imgs/Final Progress-4.png)
+![Final Work Progress 1](./imgs/Final-Progress-1.png)
+![Final Work Progress 2](./imgs/Final-Progress-2.png)
+![Final Work Progress 3](./imgs/Final-Progress-3.png)
+![Final Work Progress 4](./imgs/Final-Progress-4.png)
