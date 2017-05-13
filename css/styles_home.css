@@ -170,7 +170,7 @@ body {
     font-style: normal;
 }
 
-@media screen and (min-device-width: 1270px) {
+@media screen and (max-device-width: 1270px) {
                                 .img, .img2 {
                                   background-attachment: scroll;}
                               }
