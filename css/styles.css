@@ -214,12 +214,13 @@ h3 {
                                                     order: 1;}
                                       .content img {
                                         max-width: 60%;
+                                        min-width: 10%;
                                         max-height: 100%;
                                         min-height: 10%;
                                       }
                                       .content iframe {
-                                        max-width: 10%;
-                                        min-width: 60%;
+                                        max-width: 60%;
+                                        min-width: 10%;
                                         max-height: 100%;
                                         min-height: 10%;
                                       }
