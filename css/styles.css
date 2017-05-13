@@ -9,6 +9,8 @@ body {
   line-height: 1.45em;
   letter-spacing: 6px;
   word-spacing: 3px;
+  padding: 0;
+  margin: 0;
 }
 
 p {
@@ -40,17 +42,13 @@ h3 {
   line-height: 1.8em;
 }
 
-iframe {
-  align-content: center;
-}
-
 .main-container {
   flex-wrap: wrap;
   position: relative;
   width: auto;
   height: auto;
-  margin: 10px;
-  padding: 10px;
+  margin: 25px;
+  padding: 25px;
 }
 
 .title {
@@ -66,8 +64,8 @@ iframe {
   background-color:#8D2F23;
   text-decoration: none;
   padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin: auto;
   z-index: 1;
 }
@@ -89,8 +87,8 @@ iframe {
   text-align: center;
   word-spacing: 15px;
   padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin: auto;
   z-index: 2;
 }
@@ -156,8 +154,8 @@ iframe {
   padding: 80px;
   padding-top: 12px;
   padding-bottom: 17px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   z-index: 1;
 }
 
@@ -171,8 +169,8 @@ iframe {
   height: auto;
   background-color: #561E18;
   float: left;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 4px;
   padding-bottom: 4px;
   z-index: 1;
@@ -197,7 +195,7 @@ iframe {
     font-style: normal;
 }
 
-@media screen and (max-device-width: 1270px) {
+@media screen and (min-device-width: 1270px) {
                                        .title {
                                                     width: 90%;
                                                     height: auto;
@@ -214,5 +212,15 @@ iframe {
                                                     width: 90%;
                                                     height: auto;
                                                     order: 1;}
+                                      .content img {
+                                        max-width: 75%;
+                                        min-width: 50%;
+                                        height: 200pt;
+                                      }
+                                      .content iframe {
+                                        max-width: 75%;
+                                        min-width: 50%;
+                                        height: 200pt;
+                                      }
                                                   }
 
